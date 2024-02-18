@@ -46,7 +46,7 @@ router.post('/', async (req, res) => {
     })
 
     if (createTag) {
-      res.status(200).send('New tag successfully created')
+      res.status(200).send(createTag)
     } else {
       res.status(400).json({ error: 'Bad tag creation request' });
     }

@@ -49,7 +49,7 @@ router.post('/', async (req, res) => {
     })
 
     if (createCategory) {
-      res.status(200).send('New category successfully created')
+      res.status(200).send(createCategory)
     } else {
       res.status(400).json({ error: 'Bad category creation request' });
     }
