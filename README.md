@@ -13,6 +13,7 @@ This app has several dependancies including: dotenv 8.2.0, express 4.17.1, mysql
 Please refer to the demo video link below
 
 [Demo video link]: https://drive.google.com/file/d/1q514bQe-8EEejegAn0kMLdVLcw4F5FCb/view
+[Demo video link]
 
 ## Credits
 N/A
